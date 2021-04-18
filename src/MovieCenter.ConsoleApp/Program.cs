@@ -14,19 +14,19 @@ namespace MovieCenter.ConsoleApp
             var movieService = new MovieService();
 
 
-            //Creating movies
+            //  Creating movies
 
-            // var newMovies = new List<Movie>{
-            //     new Movie("Olympus", "Fantasy movie about Olympus the Great City"),
-            //     new Movie("Prometheus", "Movie about He who stole fire from the Gods"),
-            //     new Movie("Thor", "Thor with his Hammer,smashing Good Guys "),
-            //     new Movie("Valhalla", "Acient Greek sci fi movie"),
-            //     };
+            var newMovies = new List<Movie>{
+                new Movie("Olympus", "Fantasy movie about Olympus the Great City"),
+                new Movie("Prometheus", "Movie about He who stole fire from the Gods"),
+                new Movie("Thor", "Thor with his Hammer,smashing Good Guys "),
+                new Movie("Valhalla", "Acient Greek sci fi movie"),
+                };
 
-            // newMovies.ForEach(movie =>
-            // {
-            //     movieService.Create(movie);
-            // });
+            newMovies.ForEach(movie =>
+            {
+                movieService.Create(movie);
+            });
 
             // Fecth All movies in Database
             var movies = movieService.GetAll();
