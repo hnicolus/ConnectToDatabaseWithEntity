@@ -71,6 +71,6 @@ finally Restore and build the project with the following commands :
 `dotnet build in the sln or project folder`
 
 We have successfully setup or environment next we need to start coding .
-
+import all required namespaces
 To understands the ins and outs read this article :[https://www.buymeacoffee.com/nicolasmaluleke/how-store-data-database-using-entityframework-orm](https://www.buymeacoffee.com/nicolasmaluleke/how-store-data-database-using-entityframework-orm)
 
